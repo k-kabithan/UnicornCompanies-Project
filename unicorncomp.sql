@@ -31,7 +31,7 @@ WHERE Company is null and Valuation is null and Industry is Null
 
 SELECT *
 FROM UnicornCompanies..Unicorn_Data
-------------------------------------------------------------------
+-----------------------------------------------------------------
 -- Create new columns for Valuation and Funding to have integers. Also convert Year_Founded to dates using temporary table
 SELECT *
 FROM UnicornCompanies..Unicorn_Data
